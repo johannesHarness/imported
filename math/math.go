@@ -1,8 +1,8 @@
 package math
 
-func Add(values ...int) int {
+func Sum(values ...int) int {
 	res := 0
-	for v := range values {
+	for _, v := range values {
 		res += v
 	}
 	return res
