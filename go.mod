@@ -1,3 +1,3 @@
-module 127.0.0.1/git/goget/imported/v2
+module github.com/johannesHarness/imported
 
 go 1.23.2
